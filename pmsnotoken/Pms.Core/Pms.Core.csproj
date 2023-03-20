@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Repositories\" />
+    <None Remove="Services\" />
+    <None Remove="UnitOfWorks\" />
+    <None Remove="Dtos\" />
+    <None Remove="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+    <Folder Include="Services\" />
+    <Folder Include="UnitOfWorks\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+</Project>

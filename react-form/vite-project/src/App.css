@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.search-bar {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
